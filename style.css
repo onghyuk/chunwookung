@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+#wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+}
+
+#header {
+    position: relative;
+    width: 100vw;
+    height: 8%;
+    background-color: aliceblue;
+
+    font-size: 1em;
+}
+
+#name{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding-left: 3em;
+    font-size: 2em;
+}
+
+#menu{
+    position: relative;
+    width: auto;
+    height: auto;
+
+    left: 60%;
+    display: inline-block;
+}
+
+#works, #cv{
+    display: inline-block;
+    padding-left: 3em;
+
+    font-size:1.5em;
+}
+
+#mainContainer{
+    position: relative;
+    width: 80vw;
+    height: 100%;
+
+
+    display:grid;
+    grid-template-columns: 40% 1fr;
+    padding-bottom: 6em;
+}
+
+#secondContainer{
+    position: relative;
+    width: 100vw;
+    height: 100%;
+
+
+    display:grid;
+    grid-template-columns: 50% 49%;
+}
+
+#imgContainerLeft, #imgContainerRight{
+    position: relative;
+    width: 100%;
+    padding-top: 3em;
+
+    
+}
+
+#imgContainerLeft{
+    padding-left: 6em;
+}
+
+#imgContainerRight{
+    padding-left: 2em;
+}
+
+.mainImg{
+    width: 87%;
+    padding-top: 2.5em;
+}
