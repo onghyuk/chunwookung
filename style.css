@@ -1,3 +1,8 @@
+@keyframes mainImg {
+    0% {opacity: 0%;}
+    50% {opacity: 100%;}
+}
+
 body{
     margin: 0;
 }
@@ -31,7 +36,7 @@ body{
     width: auto;
     height: auto;
 
-    left: 60%;
+    left: 70%;
     display: inline-block;
 }
 
@@ -82,4 +87,14 @@ body{
 .mainImg{
     width: 87%;
     padding-top: 2.5em;
+    transition: 2s;
+    transition-timing-function: ease;
+    opacity: 10%;
 }
+
+.is-inViewport{
+    width: 87%;
+    padding-top: 2.5em;
+    opacity: 100%;
+}
+
